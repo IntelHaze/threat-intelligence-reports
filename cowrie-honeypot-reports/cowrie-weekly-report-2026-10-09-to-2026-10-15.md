@@ -226,7 +226,6 @@ VirusTotal’s **Relations** view associated `xya[.]supercrone[.]cc` with `130[.
 | Domain         | `xya[.]supercrone[.]cc`                                            | VirusTotal Relations associated it with the download IP; ThreatFox lists it as Aisuru `botnet_cc`; not seen in Cowrie. |
 | IP address     | `175[.]198[.]129[.]21`                                             | Largest source for the download URL: 436 events across 218 sessions.                                                   |
 
-
 The URL had 13 distinct hashes in total. The three listed hashes account for 720 of its 827 successful download events; the other 10 are not detailed here.
 
 ## 9. Conclusion
