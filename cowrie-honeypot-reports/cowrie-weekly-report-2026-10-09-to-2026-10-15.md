@@ -55,25 +55,25 @@ These figures represent events recorded by the honeypot. Event totals do not cor
 
 **Event ID Descriptions**
 
-- `cowrie.command.input`: A command was submitted by the remote user.
+`cowrie.command.input`: A command was submitted by the remote user.
     
-- `cowrie.command.success`: Cowrie recorded a command as successful within the honeypot environment.
+`cowrie.command.success`: Cowrie recorded a command as successful within the honeypot environment.
     
-- `cowrie.session.connect`: A new session was established.
+`cowrie.session.connect`: A new session was established.
     
-- `cowrie.session.closed`: A session was closed.
+`cowrie.session.closed`: A session was closed.
     
-- `cowrie.command.failed`: A command was recorded as failed.
+`cowrie.command.failed`: A command was recorded as failed.
     
-- `cowrie.login.success`: Cowrie accepted the submitted login credentials.
+`cowrie.login.success`: Cowrie accepted the submitted login credentials.
     
-- `cowrie.session.params`: Session-related parameters were recorded.
+`cowrie.session.params`: Session-related parameters were recorded.
     
-- `cowrie.log.closed`: A session log was closed.
+`cowrie.log.closed`: A session log was closed.
     
-- `cowrie.client.version`: The SSH client version was recorded.
+`cowrie.client.version`: The SSH client version was recorded.
     
-- `cowrie.client.kex`: SSH key-exchange information was recorded.
+`cowrie.client.kex`: SSH key-exchange information was recorded.
 
 ## 4. Weekly Source IP Analysis
 
