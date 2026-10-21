@@ -1,6 +1,6 @@
 # Weekly Cowrie Honeypot Activity Report
 
-**Report ID:** W42  |  **TLP:CLEAR**
+**Report ID:** W42  |  **TLP:** Clear
 
 **Prepared by:** Berkay Vagas
 **Reporting Period:** 9-15 October 2026  
