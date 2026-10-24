@@ -63,18 +63,18 @@ Command-input and session-lifecycle events were prominent in the collected telem
 
 ### 4.1 Top 10 Source IP Addresses
 
-|Source IP Address|Events|Sessions|
-|---|---|---|
-|`109.160.32.156`|13,596|1,697|
-|`109.160.32.49`|13,575|1,698|
-|`109.160.32.114`|13,538|1,694|
-|`132.148.73.100`|11,601|800|
-|`101.226.198.20`|11,327|2,750|
-|`109.160.32.109`|9,574|1,198|
-|`109.160.32.165`|9,574|1,198|
-|`109.160.32.45`|9,574|1,198|
-|`109.160.32.46`|9,569|1,197|
-|`109.160.32.161`|9,566|1,197|
+| Source IP Address | Events | Sessions |
+|---|---:|---:|
+| `109[.]160[.]32[.]156` | 13,596 | 1,697 |
+| `109[.]160[.]32[.]49` | 13,575 | 1,698 |
+| `109[.]160[.]32[.]114` | 13,538 | 1,694 |
+| `132[.]148[.]73[.]100` | 11,601 | 800 |
+| `101[.]226[.]198[.]20` | 11,327 | 2,750 |
+| `109[.]160[.]32[.]109` | 9,574 | 1,198 |
+| `109[.]160[.]32[.]165` | 9,574 | 1,198 |
+| `109[.]160[.]32[.]45` | 9,574 | 1,198 |
+| `109[.]160[.]32[.]46` | 9,569 | 1,197 |
+| `109[.]160[.]32[.]161` | 9,566 | 1,197 |
 
 These addresses generated the highest recorded event volumes during the reporting period. Event volume alone does not establish that each source IP belongs to a distinct threat actor or malware campaign.
 
@@ -128,20 +128,20 @@ The download telemetry includes multiple remote payload locations. The focused i
 
 ### 6.2 Notable Download URLs
 
-|URL|Successful Events|
-|---|---|
-|`hxxp://130[.]12[.]180[.]212/x86_64`|231|
-|`ftp://176.65.139.40/ftpget.sh`|10|
-|`ftp://176.65.139.40/jklarm`|10|
-|`ftp://176.65.139.40/jklarm5`|10|
-|`ftp://176.65.139.40/jklarm6`|10|
-|`ftp://176.65.139.40/jklarm7`|10|
-|`http://176.65.139.40/curl.sh`|10|
-|`http://176.65.139.40/jklarm`|10|
-|`http://176.65.139.40/jklarm5`|10|
-|`http://176.65.139.40/jklarm6`|10|
-|`http://176.65.139.40/jklarm7`|10|
-|`http://176.65.139.40/wget.sh`|10|
+| URL | Successful Events |
+|---|---:|
+| `hxxp://130[.]12[.]180[.]212/x86_64` | 231 |
+| `ftp://176[.]65[.]139[.]40/ftpget.sh` | 10 |
+| `ftp://176[.]65[.]139[.]40/jklarm` | 10 |
+| `ftp://176[.]65[.]139[.]40/jklarm5` | 10 |
+| `ftp://176[.]65[.]139[.]40/jklarm6` | 10 |
+| `ftp://176[.]65[.]139[.]40/jklarm7` | 10 |
+| `hxxp://176[.]65[.]139[.]40/curl.sh` | 10 |
+| `hxxp://176[.]65[.]139[.]40/jklarm` | 10 |
+| `hxxp://176[.]65[.]139[.]40/jklarm5` | 10 |
+| `hxxp://176[.]65[.]139[.]40/jklarm6` | 10 |
+| `hxxp://176[.]65[.]139[.]40/jklarm7` | 10 |
+| `hxxp://176[.]65[.]139[.]40/wget.sh` | 10 |
 
 The URL-level results show repeated retrieval activity involving downloader scripts and architecture-specific payload names. HTTP and FTP URLs are listed separately, even when they reference the same filename.
 
@@ -151,18 +151,18 @@ The URL-level results show repeated retrieval activity involving downloader scri
 
 Ten source IP addresses were associated with download-related activity involving `176.65.139.40` in the reviewed records.
 
-|No.|Source IP Address|
-|---|---|
-|1|`1.182.14.138`|
-|2|`5.232.166.129`|
-|3|`79.189.47.121`|
-|4|`105.224.47.137`|
-|5|`111.176.97.158`|
-|6|`113.221.26.111`|
-|7|`119.99.164.191`|
-|8|`154.126.166.61`|
-|9|`177.66.95.54`|
-|10|`196.218.16.51`|
+| No. | Source IP Address |
+|---:|---|
+| 1 | `1[.]182[.]14[.]138` |
+| 2 | `5[.]232[.]166[.]129` |
+| 3 | `79[.]189[.]47[.]121` |
+| 4 | `105[.]224[.]47[.]137` |
+| 5 | `111[.]176[.]97[.]158` |
+| 6 | `113[.]221[.]26[.]111` |
+| 7 | `119[.]99[.]164[.]191` |
+| 8 | `154[.]126[.]166[.]61` |
+| 9 | `177[.]66[.]95[.]54` |
+| 10 | `196[.]218[.]16[.]51` |
 
 The reviewed records show recurring requests for `wget.sh`, `ftpget.sh`, `curl.sh`, and the `jklarm` payload series. The aggregate Splunk query returned **110 download events and 23 distinct recorded SHA-256 values**.
 
@@ -203,15 +203,15 @@ The evidence supports attempted retrieval and execution behaviour across multipl
 
 ## 8. Indicators for Monitoring
 
-|Indicator|Type|Context|
+| Indicator | Type | Context |
 |---|---|---|
-|`176.65.139.40`|IPv4 address|Observed payload host|
-|`7b8cd695424f9b004b459ce886d92e9a24f38957dc9071510ab669a7cb89c417`|SHA-256|`wget.sh`, Mirai-labelled downloader|
-|`964ad06953d28bff625b49a6f90a721d13eda1128f9098ad0e2586931da6274c`|SHA-256|`ftpget.sh`, downloader classification|
-|`b965f772177c2e79bff3739cdffa544d357e16441bdd833428aae067fe52dd65`|SHA-256|`curl.sh`, Mirai/Katana-associated sample|
-|`/jklarm`, `/jklarm5`, `/jklarm6`, `/jklarm7`|URL paths|Architecture-specific payload retrieval|
-|`/jklm68k`, `/jklmips`, `/jklmpsl`, `/jklppc`, `/jklsh4`, `/jklspc`, `/jklx86`|URL paths|Additional architecture-specific payloads|
-|`selfrep`|Command argument|Observed in attempted payload execution commands|
+| `176[.]65[.]139[.]40` | IPv4 address | Observed payload host |
+| `7b8cd695424f9b004b459ce886d92e9a24f38957dc9071510ab669a7cb89c417` | SHA-256 | `wget.sh`, Mirai-labelled downloader |
+| `964ad06953d28bff625b49a6f90a721d13eda1128f9098ad0e2586931da6274c` | SHA-256 | `ftpget.sh`, downloader classification |
+| `b965f772177c2e79bff3739cdffa544d357e16441bdd833428aae067fe52dd65` | SHA-256 | `curl.sh`, Mirai/Katana-associated sample |
+| `/jklarm`, `/jklarm5`, `/jklarm6`, `/jklarm7` | URL paths | Architecture-specific payload retrieval |
+| `/jklm68k`, `/jklmips`, `/jklmpsl`, `/jklppc`, `/jklsh4`, `/jklspc`, `/jklx86` | URL paths | Additional architecture-specific payloads |
+| `selfrep` | Command argument | Observed in attempted payload execution commands |
 
 These indicators can be used to correlate future honeypot events and relevant security telemetry. The IP address and URL paths should be treated as observed infrastructure indicators, not permanent identifiers of a single threat actor.
 
