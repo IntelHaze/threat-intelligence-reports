@@ -3,7 +3,7 @@
 **Report ID:** W43 | **TLP:** Clear  
 
 **Prepared by:** Berkay Vagas  
-**Reporting Period:** 16-23 October 2026  
+**Reporting Period:** 16-22 October 2026  
 **Data Source:** Cowrie Honeypot Logs  
 **Analysis Platform:** Splunk
 
