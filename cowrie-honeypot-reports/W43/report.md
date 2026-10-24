@@ -145,7 +145,7 @@ The download telemetry includes multiple remote payload locations. The focused i
 
 The URL-level results show repeated retrieval activity involving downloader scripts and architecture-specific payload names. HTTP and FTP URLs are listed separately, even when they reference the same filename.
 
-## 7. Focused Investigation: `176.65.139.40`
+## 7. Focused Investigation: `176[.]65[.]139[.]40`
 
 ### 7.1 Infrastructure and Source Activity
 
