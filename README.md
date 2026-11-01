@@ -13,4 +13,4 @@ The project includes:
 
 **Technologies:** Cowrie, Splunk, Ubuntu, SPL, MITRE ATT&CK, STIX 2.1.
 
-**Purpose:** Hands-on research in Cyber Threat Intelligence, Threat Hunting, and Security Operations (SOC).
+**Purpose:** Hands-on research in Cyber Threat Intelligence, Threat Hunting, and Security Operations.
