@@ -1,0 +1,330 @@
+{
+  "type": "bundle",
+  "id": "bundle--2380402a-def2-46ac-9bd9-15e42bf02180",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2d78dcf6-122b-492e-99ec-67b87b726cbb",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed IPv4 address 109.160.32.159",
+      "description": "High-volume source observed in 2,396 Cowrie sessions and 19,148 total events. No file-download events were identified for this IP during W44. This records observed Cowrie infrastructure and does not independently establish malicious ownership or attribution.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '109.160.32.159']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-indicator"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Weekly Source IP Analysis and Indicators for Monitoring"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--02d77b91-367e-4e82-885d-dfe6d3758f39",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed IPv4 address 176.65.139.40",
+      "description": "Source associated with the ten most frequently observed download URLs during W44; 18,191 total Cowrie events. This records observed Cowrie infrastructure and does not independently establish malicious ownership or attribution.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[ipv4-addr:value = '176.65.139.40']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-indicator"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Weekly Source IP Analysis and Indicators for Monitoring"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b1723cab-ce5a-4928-8b06-5ec2d6b16a7c",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL http://176.65.139.40/wget.sh",
+      "description": "Most frequently observed download URL. 154 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'http://176.65.139.40/wget.sh']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f1d3ca89-b307-4823-bc33-f4488a7b0506",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL http://176.65.139.40/curl.sh",
+      "description": "Observed successful Cowrie download URL. 147 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'http://176.65.139.40/curl.sh']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dadb9126-1c45-4027-8961-bf8b031561c4",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL http://176.65.139.40/jklarm",
+      "description": "Observed successful Cowrie download URL. 147 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'http://176.65.139.40/jklarm']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5350610a-dcfc-4439-8c2b-32e34e008f22",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL http://176.65.139.40/jklarm5",
+      "description": "Observed successful Cowrie download URL. 147 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'http://176.65.139.40/jklarm5']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9892aa0e-4ec0-4104-92fe-3517753cc6f9",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL http://176.65.139.40/jklarm6",
+      "description": "Observed successful Cowrie download URL. 147 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'http://176.65.139.40/jklarm6']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bea1aa26-1455-4e4b-8161-c3d90fcf7974",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL http://176.65.139.40/jklarm7",
+      "description": "Observed successful Cowrie download URL. 147 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'http://176.65.139.40/jklarm7']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ef9f59fb-f704-4e43-9104-3e126e6ae3b7",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL ftp://176.65.139.40/ftpget.sh",
+      "description": "Observed successful Cowrie download URL. 144 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'ftp://176.65.139.40/ftpget.sh']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--739f9e24-e532-415a-b781-5a70c7f88162",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL ftp://176.65.139.40/jklarm",
+      "description": "Observed successful Cowrie download URL. 144 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'ftp://176.65.139.40/jklarm']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--74ad3be8-47ed-431b-9d7f-0740d6c029d3",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL ftp://176.65.139.40/jklarm5",
+      "description": "Observed successful Cowrie download URL. 144 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'ftp://176.65.139.40/jklarm5']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9f3ad3e1-d783-47ce-a406-855feeb0ae11",
+      "created": "2026-11-01T00:00:00Z",
+      "modified": "2026-11-01T00:00:00Z",
+      "name": "W44 observed URL ftp://176.65.139.40/jklarm6",
+      "description": "Observed successful Cowrie download URL. 144 successful download events were recorded. This records URL observation and does not independently establish payload execution or malware classification.",
+      "indicator_types": [
+        "anomalous-activity"
+      ],
+      "pattern_type": "stix",
+      "pattern": "[url:value = 'ftp://176.65.139.40/jklarm6']",
+      "valid_from": "2026-11-01T00:00:00Z",
+      "labels": [
+        "cowrie",
+        "splunk",
+        "W44",
+        "observed-url"
+      ],
+      "external_references": [
+        {
+          "source_name": "Cowrie/Splunk W44",
+          "description": "W44 report, Section 6.2 Notable Download URLs"
+        }
+      ]
+    }
+  ]
+}
